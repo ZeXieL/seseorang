@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <audio autoplay src="musik.mp3">
   <div id="bodyblur"></div>
   <div id="konten">
     <div id="fotoloveu">
@@ -38,7 +39,7 @@
     var i=0,finish2;
     finish2 = "Apapun jawabannya, kirim pesan ke Telegram aku ya!";
     function play() {
-      var audio = new Audio('https://lv3000.likeadream.repl.co/musik.mp3');
+      var audio = new Audio('musik.mp3');
       audio.play();
       audio.loop=true;
       audio.addEventListener('ended', function() {
