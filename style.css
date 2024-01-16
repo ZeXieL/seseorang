@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffc8dd;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.notification-container {
+    text-align: center;
+    margin: 50px;
+}
+
+#konten {
+    display: flex;
+    align-items: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Aturan CSS untuk tata letak di layar smartphone */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Aturan CSS untuk tata letak di layar tablet */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Aturan CSS untuk tata letak di layar laptop/desktop */
+}
+
+#fotoloveu {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+span{
+    margin-right: 20px;
+}
+
+.image {
+    display: inline-block; /* agar img menjadi inline dan bisa di-center menggunakan text-align */
+}
+
+#tombWA {
+    margin-top: 10px;
+}
